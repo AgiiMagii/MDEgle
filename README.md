@@ -1,6 +1,6 @@
 # Drawing with Arrays
 
-This is a **learning project** created in C# to practice working with **arrays** and **console output**. The main goal is to **draw a colorful [Fir tree](Img/CaptureEgle.png) using arrays** and console characters.
+This is a **learning project** created in C# to practice working with **arrays** and **console output**. The main goal is to **draw a colorful [Fir tree](Img/CaptureEgle.PNG) using arrays** and console characters.
 
 ## Overview
 The project demonstrates how to:
@@ -10,7 +10,7 @@ The project demonstrates how to:
 - Organize code for clarity and maintainability.
 
 ## Features
-- Draws a **[Fir tree](Img/CaptureEgle.png)** using arrays;
+- Draws a **[Fir tree](Img/CaptureEgle.PNG)** using arrays;
 - Applies **different colors** for various parts of the tree;
 - Demonstrates **basic console input/output** techniques;
 - Includes **step-by-step construction** using arrays.
