@@ -5,3 +5,10 @@ C:\Users\User\OneDrive\Dokumenti\C_sharp\Darbini\MDEgle\MDEgle\obj\Debug\MDEgle.
 C:\Users\User\OneDrive\Dokumenti\C_sharp\Darbini\MDEgle\MDEgle\obj\Debug\MDEgle.csproj.CoreCompileInputs.cache
 C:\Users\User\OneDrive\Dokumenti\C_sharp\Darbini\MDEgle\MDEgle\obj\Debug\MDEgle.exe
 C:\Users\User\OneDrive\Dokumenti\C_sharp\Darbini\MDEgle\MDEgle\obj\Debug\MDEgle.pdb
+C:\Users\araja\source\repos\MDEgle\MDEgle\bin\Debug\MDEgle.exe.config
+C:\Users\araja\source\repos\MDEgle\MDEgle\bin\Debug\MDEgle.exe
+C:\Users\araja\source\repos\MDEgle\MDEgle\bin\Debug\MDEgle.pdb
+C:\Users\araja\source\repos\MDEgle\MDEgle\obj\Debug\MDEgle.csproj.AssemblyReference.cache
+C:\Users\araja\source\repos\MDEgle\MDEgle\obj\Debug\MDEgle.csproj.CoreCompileInputs.cache
+C:\Users\araja\source\repos\MDEgle\MDEgle\obj\Debug\MDEgle.exe
+C:\Users\araja\source\repos\MDEgle\MDEgle\obj\Debug\MDEgle.pdb
