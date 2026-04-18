@@ -1,26 +1,98 @@
-# Drawing with Arrays
+# 🌲 MDEgle – Console Fir Tree Generator
 
-This is a **learning project** created in C# to practice working with **arrays** and **console output**. The main goal is to **draw a colorful [Fir tree](Img/CaptureEgle.PNG) using arrays** and console characters.
+A simple C# console application that generates a customizable fir tree using loops and console colors.
 
-## Overview
-The project demonstrates how to:
-- Use **arrays** to represent data and structure for drawing;
-- Implement loops and conditions to control output in the console;
-- Work with **colors** and formatting in console applications;
-- Organize code for clarity and maintainability.
+The project focuses on practicing arrays, loops, conditional logic, input validation, and basic console rendering.
 
-## Features
-- Draws a **[Fir tree](Img/CaptureEgle.PNG)** using arrays;
-- Applies **different colors** for various parts of the tree;
-- Demonstrates **basic console input/output** techniques;
-- Includes **step-by-step construction** using arrays.
+---
 
-## Learning Goals
-- Understand how to **map data to a visual representation** in the console;
-- Practice working with **C# arrays, loops, and conditional statements**;
-- Build a **small, interactive console application** from scratch;
-- Keep a **reference for future projects** involving arrays and console graphics.
+## 🧠 Overview
 
-## Notes
-This project serves as a **personal learning tool**, allowing me to revisit and remember how to structure console drawings with arrays, loops, and colors. It can also be used as inspiration for similar console-based exercises or as a foundation for more complex graphical projects.
+The application allows the user to generate a tree with custom settings:
+
+- Tree size (height-based scaling)
+- Crown color
+- Trunk color
+- Ground color
+- Background color
+- Optional random or default color selection
+
+The tree is rendered directly in the console using characters and colored output.
+
+---
+
+## 🖼️ Output Examples
+
+Different configurations produce different visual results:
+
+<p align="center">
+  <img src="Img/Egle.png" width="250"/>
+  <img src="Img/Egle1.png" width="250"/>
+  <img src="Img/Egle2.png" width="250"/>
+</p>
+
+---
+
+## ✨ Features
+
+- Customizable tree size
+- Color selection from predefined list
+- Default color fallback (press Enter)
+- Console-based rendering with colors
+- Input validation for robustness
+- Random color option (if implemented)
+- Clean separation of input and rendering logic
+
+---
+
+## ⚙️ How it works
+
+1. User selects tree height
+2. User selects colors (or uses defaults)
+3. Program calculates tree structure using nested loops
+4. Console output renders:
+   - Crown (tree branches)
+   - Trunk
+   - Ground layer
+   - Background filler
+
+---
+
+## 🛠️ Refactoring & Improvements
+
+The project was refactored to improve readability, structure, and user experience:
+
+- Refactored `Program.cs` to support user-selected colors for:
+  - Tree crown
+  - Trunk
+  - Ground
+  - Background
+- Introduced helper methods:
+  - `GetColorInput()` for validated color selection
+  - `PrintWithColor()` for consistent colored output
+- Simplified size input logic
+- Removed unused array-based drawing logic
+- Replaced redundant structures with direct rendering approach
+- Improved input validation and default value handling
+- Enhanced overall UX with clearer prompts and color feedback
+- Added example output images for better visualization
+
+---
+
+## 🎯 Learning Goals
+
+This project was created to practice:
+
+- Nested loops and coordinate-based drawing
+- Console color manipulation
+- Input validation patterns
+- Refactoring from prototype → clean structure
+- Turning logic into reusable methods
+- Basic “graphics-like” thinking in console applications
+
+---
+
+## 📌 Notes
+
+This project serves as a personal learning milestone for working with console rendering and structured input handling in C#. It can be extended in the future with additional shapes or animation effects.
 
